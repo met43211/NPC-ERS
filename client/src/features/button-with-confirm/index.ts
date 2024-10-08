@@ -1,0 +1,1 @@
+export { ButtonWithConfirm } from './ui';
