@@ -1,0 +1,15 @@
+{
+  "name": "npc_ers",
+  "version": "1.0.0",
+  "description": "Тестовое задание для компании НПЦ ИРС",
+  "main": "index.js",
+  "scripts": {
+    "deps:install": "npm i && cd ./client && npm i && cd ../server && npm i",
+    "start:dev": "concurrently \"cd client && npm run dev\" \"cd server && npm run dev\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
