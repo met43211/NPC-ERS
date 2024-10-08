@@ -47,4 +47,5 @@ npm run start:dev
 ```
 
 - Стек: JavaScript, React, React-Query, Tailwind CSS, Express, Postgres
+- Frontend архитектура - FSD(Feature_Sliced Design)
 
